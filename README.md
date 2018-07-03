@@ -16,6 +16,8 @@ When we study recursive functions, we all wish we could visualise and watch them
 * After completing registration, go to Login.
 * After successfully logging in, you will see a coding section and graph rendering section.
 * Code and visualise recursions.
+* Play, pause, rewind or move forward step-by-step.
+* You can also save and load a code snippet.
 
 ## UML diagram
 
@@ -34,3 +36,5 @@ When we study recursive functions, we all wish we could visualise and watch them
   ![Fibonacci](images/fibo.png)
 
 ## YouTube video
+
+[Demo Video](https://youtu.be/kiQ2q2o94qo)

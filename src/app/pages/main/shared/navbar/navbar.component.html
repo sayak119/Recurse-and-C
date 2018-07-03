@@ -1,0 +1,60 @@
+<nav class="site-navbar navbar navbar-default navbar-inverse navbar-fixed-top navbar-mega"
+     role="navigation">
+
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggler hamburger hamburger-close collapsed" data-target="#site-navbar-collapse"
+            data-toggle="collapse">
+      <span class="hamburger-bar"></span>
+    </button>
+    <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+      <a (click)="false" routerLink="/">
+        <img src="../../../../../assets/images/vector-mono-white.png" style="height: 30px;"/>
+      </a>
+    </div>
+  </div>
+
+  <div class="navbar-container container-fluid">
+    <!-- Navbar Collapse -->
+    <div class="collapse navbar-collapse navbar-collapse-toolbar" id="site-navbar-collapse">
+      <!-- Navbar Toolbar -->
+      <ul class="nav navbar-toolbar">
+      </ul>
+      <!-- End Navbar Toolbar -->
+
+      <!-- Navbar Toolbar Right -->
+      <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
+
+
+        <!-- USER BUBBLE
+        =========================== -->
+
+        <li class="nav-item dropdown">
+
+          <!-- USER AVATAR -->
+          <a class="nav-link navbar-avatar" data-toggle="dropdown" href="javascript:void(0)"
+             data-animation="scale-up" role="button">
+                <span class="avatar avatar-online">
+                  <img src="../../../../../assets/images/user-default.png" alt="user image">
+                </span>
+            &nbsp; <i class="icon wb-chevron-down-mini"></i>
+          </a>
+
+          <!-- DROPDOWN MENU -->
+          <div class="dropdown-menu" role="menu">
+            <a class="dropdown-item" [routerLink]="'/settings/profile'" role="menuitem"><i class="icon wb-user" aria-hidden="true"></i> Profile</a>
+            <a class="dropdown-item" [routerLink]="'/settings'" role="menuitem"><i class="icon wb-settings" aria-hidden="true"></i> Settings</a>
+            <div class="dropdown-divider" role="presentation"></div>
+
+            <a (click)="authService.logout()" class="dropdown-item" href="javascript:void(0)" role="menuitem">
+              <i class="icon wb-power" aria-hidden="true"></i> Logout</a>
+
+          </div>
+        </li>
+      </ul>
+      <!-- End Navbar Toolbar Right -->
+
+    </div>
+    <!-- End Navbar Collapse -->
+
+  </div>
+</nav>

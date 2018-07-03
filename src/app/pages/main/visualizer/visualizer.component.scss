@@ -1,0 +1,70 @@
+$canvas_background: 'black';
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  height: 100%;
+}
+
+#visualizer-container {
+  max-width: 100% !important;
+}
+
+#main-wrapper {
+  display: flex;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* LAYER ONE */
+#code-panel {
+  flex-basis: 30%;
+  background: #535f7d;
+  height: 100%;
+  padding: 20px;
+  min-width: 500px;
+}
+
+#viz-panel {
+  flex-basis: 70%;
+  background: $canvas_background;
+  height: 100%;
+}
+
+#viz-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#graph-panel {
+  background: $canvas_background;
+  flex-grow: 1;
+  height: 100px;
+}
+
+#controls-panel {
+  display: flex;
+  padding: 10px;
+  background: #3e4b60;
+}
+
+#player-speed {
+  max-width: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#controls-wrapper {
+  display: flex;
+  flex-grow: 5;
+  justify-content: center;
+
+  button {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}

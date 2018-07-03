@@ -25,7 +25,7 @@ export class AuthService {
 
     // TODO - implement an authentication server!
     return new Observable( obs => {
-      let user = { email, name: 'Chris Rocco', image: null }
+      let user = { email, name: 'Sayak Kundu', image: null }
       this.jwtService.setSession(
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.XbPfbIHMI6arZ3Y922BhjWgQzWXcXNrz0ogtVhfEd2o",
         user

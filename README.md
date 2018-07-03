@@ -9,6 +9,14 @@ When we study recursive functions, we all wish we could visualise and watch them
 * Run `npm install`.
 * Run `npm start`.
 
+## Usage
+
+* Visit `localhost:4200` when the webpack gets compiled successfully.
+* Register your account.
+* After completing registration, go to Login.
+* After successfully logging in, you will see a coding section and graph rendering section.
+* Code and visualise recursions.
+
 ## UML diagram
 
  ![UML diagram](images/uml.jpg)

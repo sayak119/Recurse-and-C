@@ -41,3 +41,5 @@ When we study recursive functions, we all wish we could visualise and watch them
 
 
 Icons made by [Becris](https://www.flaticon.com/authors/becris) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+
+## Footnotes
